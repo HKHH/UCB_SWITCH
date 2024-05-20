@@ -12,6 +12,8 @@ To do this, you must solder two cables with a button at the marked location. If 
 ## Top switch (SWITCH BETWEEN DISPLAY AND HDMI, REBOOT)
 The second switch is connected via the 40 PIN GPIO strip, similar to the Raspberry Pi 3 and 4. However, due to the hardware change in Raspberry Pi 5, you can no longer use the libraries for GPIO control as with the old models. [GPIO Zero](https://gpiozero.readthedocs.io/en/stable/installing.html) was used for control.
 
+It is assumed that you have connected the cables from the button to [PIN 33 (GPIO 13) and PIN 34 (GND)](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html). If you want to use a different GPIO PIN, you must adapt the topswitch.py script accordingly.
+
 ### Installation
 Copy the two configurations for the display and the HDMI output into the directory where the config.txt file is located (/boot/firmware) assign the appropriate access rights:
 ```
