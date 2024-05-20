@@ -10,5 +10,5 @@ The Raspberry Pi 5 has a switch on the board with which you can boot the compute
 To do this, you must solder two cables with a button at the marked location. If you also want to remove the switch, it is helpful to solder a 2-pin connector strip (distance 2.54) and connect the appropriate plugs.
 
 ## Top switch (SWITCH BETWEEN DISPLAY AND HDMI, REBOOT)
-The second switch is connected via the 40 PIN GPIO strip, similar to the Raspberry Pi 3 and 4. However, due to the hardware change in Raspberry Pi 5, you can no longer use the libraries for GPIO control as with the old models. [GPIO Zero] (https://gpiozero.readthedocs.io/en/stable/installing.html) was used for control.
+The second switch is connected via the 40 PIN GPIO strip, similar to the Raspberry Pi 3 and 4. However, due to the hardware change in Raspberry Pi 5, you can no longer use the libraries for GPIO control as with the old models. [GPIO Zero](https://gpiozero.readthedocs.io/en/stable/installing.html) was used for control.
 
