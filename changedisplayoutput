@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if [ "$(whoami)" != "root" ]; then
+	echo "Sorry, this script must be executed with sudo or as root"
+	exit 1
+fi
+
+grep "HDMI-CONFIG" /boot/firmware/config.txt
+
+if [ "$?" -eq "0" ]; then
+  cp /boot/firmware/config.DSI /boot/firmware/config.txt 
+  echo "Switch to DSI"
+else
+  cp /boot/firmware/config.HDMI /boot/firmware/config.txt
+  echo "Switch to HDMI"
+fi
+reboot
+
