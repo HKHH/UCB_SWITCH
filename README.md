@@ -3,6 +3,8 @@ The [Raspberry Pi UCB](https://www.thingiverse.com/thing:6618915/) is a Universa
 
 The Raspberry Pi UCB is the B version (Better Version) for the Raspberry Pi 5 with cooling and HAT. The case can be used as a mini HTPC, NAS, SERVER and much more. The interchangeable covers allow it to be adapted to many different Raspberry Pi 5 configurations. You can use the case with an OSOYOO 5" touch display or with one of the popular Raspberry Pi UC front covers.
 
+![Raspberry Pi UCB](https://github.com/HKHH/UCB_SWITCH/blob/main/image/frontswitch.png)
+
 In this tutorial I would like to show you how to use the two switches on the front
 
 ## Lower switch (POWER ON / OFF)
