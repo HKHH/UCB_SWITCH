@@ -12,3 +12,6 @@ To do this, you must solder two cables with a button at the marked location. If 
 ## Top switch (SWITCH BETWEEN DISPLAY AND HDMI, REBOOT)
 The second switch is connected via the 40 PIN GPIO strip, similar to the Raspberry Pi 3 and 4. However, due to the hardware change in Raspberry Pi 5, you can no longer use the libraries for GPIO control as with the old models. [GPIO Zero](https://gpiozero.readthedocs.io/en/stable/installing.html) was used for control.
 
+### Installation
+
+
