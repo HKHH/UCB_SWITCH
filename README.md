@@ -5,7 +5,7 @@ The Raspberry Pi UCB is the B version (Better Version) for the Raspberry Pi 5 wi
 
 ![Raspberry Pi UCB](https://github.com/HKHH/UCB_SWITCH/blob/main/image/frontswitch.png)
 
-In this tutorial I would like to show you how to use the two switches on the front
+In this tutorial I would like to show you how to use the two switches on the front. For me, the lower switch is used to switch on and off and the upper switch is used to switch from the display or reboot with a long press. But you can also trigger other actions when pressed.
 
 ## Lower switch (POWER ON / OFF)
 The Raspberry Pi 5 has a switch on the board with which you can boot the computer and perform a shutdown. But many people don't know that you can easily do this with an external switch.
