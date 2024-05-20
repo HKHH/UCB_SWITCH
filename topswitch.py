@@ -42,8 +42,6 @@ def start_timer():
 def execute_command():
   if PRESSURE_DURATION > 0:
     measured_time = (time.time() - PRESSURE_DURATION)
-    print("Push time: " + str(round(measured_time,1)))
-    print("TIME_LONGPRESS: " + str(TIME_LONGPRESS))
     if measured_time > TIME_LONGPRESS: #Longpress
       print("Raspberry Pi will shut down...")
       syslog.syslog('Shutdown: System halted');
@@ -69,17 +67,3 @@ while True:
     syslog.syslog('Shutdown terminated (Keyboard)');
     print ("Bye bye")
     sys.exit(0)
-
-
-
-
-
-
-
-
-
-#while True:
-#    if BUTTON.is_pressed:
-#        print("Button is pressed")
-#    else:
-#        print("Button is not pressed")
