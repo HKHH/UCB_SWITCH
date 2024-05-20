@@ -13,5 +13,13 @@ To do this, you must solder two cables with a button at the marked location. If 
 The second switch is connected via the 40 PIN GPIO strip, similar to the Raspberry Pi 3 and 4. However, due to the hardware change in Raspberry Pi 5, you can no longer use the libraries for GPIO control as with the old models. [GPIO Zero](https://gpiozero.readthedocs.io/en/stable/installing.html) was used for control.
 
 ### Installation
+Copy the two configurations for the display and the HDMI output into the directory where the config.txt file is located (/boot/firmware) assign the appropriate access rights
+```
+sudo cp config.DSI config.HDMI /boot/firmware
+cd /boot/firmware
+sudo chgrp root config.DSI config.HDMI
+sudo chown root config.DSI config.HDMI
+sudo chmod 755 config.DSI config.HDMI
+```
 
 
